@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>9-Period Timetable</title>
+  <style>
+    body {font-family: sans-serif; padding: 20px; background: #f4f4f4;}
+    h1 {text-align: center;}
+    table {width: 100%; border-collapse: collapse; background: #fff;}
+    th, td {border: 1px solid #ccc; padding: 8px; text-align: center;}
+    th {background: #4CAF50; color: #fff;}
+    td:nth-child(8) {font-weight: bold;}
+  </style>
+</head>
+<body>
+  <h1>9-Period Timetable</h1>
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>P1</th><th>P2</th><th>P3</th><th>P4</th><th>P5</th><th>P6</th>
+      <th>Lunch</th><th>P7</th><th>P8</th><th>P9</th>
+    </tr>
+    <tr><td>Mon</td><td>Math</td><td>Eng</td><td>Phy</td><td>Bio</td><td>Che</td><td>His</td><td rowspan="5">Lunch</td><td>Geo</td><td>CS</td><td>PE</td></tr>
+    <tr><td>Tue</td><td>Bio</td><td>Math</td><td>Eng</td><td>His</td><td>Phy</td><td>CS</td><td>Che</td><td>Geo</td><td>Art</td></tr>
+    <tr><td>Wed</td><td>Eng</td><td>Math</td><td>Bio</td><td>Che</td><td>Phy</td><td>Lib</td><td>CS</td><td>His</td><td>PE</td></tr>
+    <tr><td>Thu</td><td>Math</td><td>Eng</td><td>Phy</td><td>Bio</td><td>Geo</td><td>Art</td><td>CS</td><td>Che</td><td>Games</td></tr>
+    <tr><td>Fri</td><td>Bio</td><td>Math</td><td>Eng</td><td>Phy</td><td>Lib</td><td>CS</td><td>His</td><td>Art</td><td>PE</td></tr>
+  </table>
+</body>
+</html>
